@@ -1,5 +1,5 @@
 /* Template */
-body{
+*{
     margin: 0;
     padding: 0;
 }
@@ -11,15 +11,27 @@ body::-webkit-scrollbar {
 .font{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 1000;
-    font-size:25px;
+    font-size:3vw;
 }
 
 .fontContent{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
-    font-size:15px;
+    font-size:20px;
 }
 
+.header-font{
+    color: white;
+    text-shadow: black 2px 2px;
+}
+
+.zone{
+    background-color: white;
+    border: solid red 5px;
+    border-radius: 10px;
+    
+    
+}
 
 /* End of template */
 /* Navbar code*/
@@ -82,9 +94,13 @@ li a:hover{
 
 /* End of Header */
 /* Main */
-.main-body{
-    background-image: linear-gradient(120deg, #84fab0 0%, 
+.body-content{
+background-image: linear-gradient(120deg, #84fab0 0%, 
     #8fd3f4 100%);
+
+}
+
+.main-body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -104,12 +120,57 @@ li a:hover{
     display: inline-block;
 }
 
-.btn{
+.butt{
+    font-size: 20px;
     background-color: rgb(59, 174, 219);
+    height: 50px;
     transition: all .4s ease-in-out;
+    border: solid black 2px;
+    border-radius: 40px;
 }
-.btn:hover{
+.butt:hover{
     transform: scale(1.05);
 }
 
+.container-flex{
+    display: flex;
+}
 /* End of Main */
+/* skill set */
+.skills{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+}
+
+.container{
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.container p {
+    background-color: #BE2835;
+    border: 1px solid #BE2835;
+    color: #fff;
+    font-weight: 600;
+    padding: .5em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    transition: all .5s ease-in;
+}
+
+.container p:hover{
+    background-color: #fff;
+    border: 1px solid #BE2835;
+    color: #BE2835;
+}
+
+/* end of skill set */

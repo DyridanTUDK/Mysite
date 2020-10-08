@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="/style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/76a1f896db.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <!-- Navbar -->
@@ -24,8 +26,8 @@
         <section class="home">
             <div class="home-content">
                 <div class="home-presentation">
-                    <h1 class="font">console.log(Hello World)</h1>
-                    <p class="font">Where it all began</p>
+                    <h1 class="font header-font">console.log(Hello World)</h1>
+                    <p class="font header-font">Where it all began</p>
                 </div>
                 <img src="/img/pngegg.png" alt="" class="compimg">
             </div>
@@ -33,24 +35,43 @@
     </header>
     <!-- End of Header -->
     <!-- Main -->
-    <div>
-        <div class="main-body">
-                <div class="main-body-img-holder">
-                    <img src="/img/robofriends.png" alt="robofriends" class="imgholder">
-                </div>
-                    <div class="project-texts">
-                        <h1 class="font">RoboFriends</h1>
-                        <p class="fontContent">So robofriends is an react app that I made following an udemy course, this project taught me how powerful react is and made the entire front-end development easy and fast</p>
-                        <button class="btn"><a href="https://dyridantudk.github.io/IDK" class="" style="text-decoration: none; color: Black;" target="_blank">Click me to try it out</a></button>
-                    </div>
-        </div>
-        <div class="">
+    <div class="body-content">
 
+        <h1 class="font header-font contentheader" style="text-align: center;">Personal Projects</h1>
+        <hr style="background-color: white; margin: 0px 30%;">
+        <p style="text-align: center; color: white; font-size: 2em; text-shadow: black 2px 1px;" >I like to create random projects</p>
+        <div class="container-flex">
+            <div class="main-body" >
+                    <div class="main-body-img-holder">
+                        <img src="/img/robofriends.png" alt="robofriends" class="imgholder">
+                    </div>
+                        <div class="project-texts">
+                            <h1 class="font header-font contentheader">RoboFriends</h1>
+                            <p class="fontContent">So robofriends is an react app that I made following an udemy course, this project taught me how powerful react is and how it made the entire front-end development process easier and faster</p>
+                            <button class="butt"><a href="https://dyridantudk.github.io/IDK" class="header-font" style="text-decoration: none;" target="_blank">Click me to try it out</a></button>
+                        </div>
+            </div>
         </div>
-        </div>    
         
     </div>
     <!-- End of Main -->
-
+    <!-- My skill sets -->
+    <div class="skills">
+        <h1 class="font header-font contentheader" style="text-align: center;">Technological Skills</h1>
+        <hr style="background-color: black; margin: 0px 30%;">
+        <p style="text-align: center; color: black; font-size: 2em;" >I always enjoy learning new things.</p>
+        <div class="container">
+            <p>Semantic HTML5 <i class="fab fa-html5"></i></p>
+            <p>Responsive CSS3 <i class="fab fa-css3-alt"></i></p>
+            <p>Interactive JavaScript <i class="fab fa-js"></i> </p>
+            <p>Bootstrap <i class="fab fa-bootstrap"></i></p>
+            <p>React <i class="fab fa-react"></i></p>
+            <p>Git <i class="fas fa-code-branch"></i></i></p>
+            <p>Github <i class="fab fa-github"></i></p>
+            <p>Python <i class="fab fa-python"></i></p>
+            <p>Problem Solver <i class="fas fa-cogs"></i></p>
+        </div>
+    </div>
+    <!-- End of my skill sets -->
 </body>
 </html>
