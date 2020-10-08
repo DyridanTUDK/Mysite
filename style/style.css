@@ -11,13 +11,13 @@ body::-webkit-scrollbar {
 .font{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 1000;
-    font-size:3vw;
+    font-size:5vw;
 }
 
 .fontContent{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
-    font-size:20px;
+    font-size:1.25rem;
 }
 
 .header-font{
@@ -183,3 +183,40 @@ background-image: linear-gradient(120deg, #84fab0 0%,
     grid-column: span 3;
 }
 /* end of skill set cry */
+/* Social */
+
+.connect{
+    padding: 0px 15% ;
+    height: 300px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social i{
+    border: 2px solid #BE2835;
+    border-radius: 10px;
+    color: #BE2835;
+    font-size: 50px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.social i:hover{
+    background-color: #BE2835;
+    color: #fff;
+}
+
+.social-font{
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow:2px 2px #fff ;
+}
+.social-font-head{
+    font-size: 30px;
+    font-weight: 700;
+}
+/*  End of  Social */
