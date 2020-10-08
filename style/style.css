@@ -138,7 +138,7 @@ background-image: linear-gradient(120deg, #84fab0 0%,
 /* End of Main */
 /* skill set */
 .skills{
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
 
 }
 
@@ -148,12 +148,14 @@ background-image: linear-gradient(120deg, #84fab0 0%,
     align-items: center;
     display: grid;
     grid-gap: 2px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /* grid-auto-flow: row; */
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 2fr);
     justify-content: center;
 }
 
 .container p {
+    border-radius: 3px;
     background-color: #BE2835;
     border: 1px solid #BE2835;
     color: #fff;
@@ -164,7 +166,7 @@ background-image: linear-gradient(120deg, #84fab0 0%,
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    transition: all .5s ease-in;
+    transition: all .4s ease;
 }
 
 .container p:hover{
@@ -173,4 +175,11 @@ background-image: linear-gradient(120deg, #84fab0 0%,
     color: #BE2835;
 }
 
+.row1{
+    grid-column: span 2;
+}
+
+.row2{
+    grid-column: span 3;
+}
 /* end of skill set */
